@@ -1,8 +1,15 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+
+import Home from './Home/Home';
+
+import 'desityle/dist/css/desityle.min.css';
 
 function App() {
   return (
-    <h1>Hello From Drabkirn</h1>
+    <Switch>
+      <Route path="/" component={ Home } />
+    </Switch>
   );
 }
 

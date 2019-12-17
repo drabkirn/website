@@ -1,0 +1,33 @@
+p > a {
+  font-size: 1em;
+}
+
+.fs-1-6 {
+  font-size: 1.6em;
+  line-height: 1.2;
+}
+
+.drabkirn-header-intro-dsk-content h1 {
+  font-size: 4em;
+}
+
+.drabkirn-header-intro-dsk-content p {
+  font-size: 1.8em;
+  line-height: 1.2;
+}
+
+.header-intro-dsk-username-tag {
+  font-size: 2.2em !important;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-intro-mob-username-tag {
+  font-size: 1.5em !important;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.drabkirn-social-icons a {
+  border-bottom: none;
+}
