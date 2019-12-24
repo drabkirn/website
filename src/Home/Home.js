@@ -30,6 +30,7 @@ function Home() {
           <a href="https://blog.cdadityang.xyz" className="mr-20" target="_blank" rel="noopener noreferrer"><img src="/assets/icons/if-blog-100x100.png" alt="blog-icon" /></a>
           <a href="https://github.com/drabkirn" className="mr-20" target="_blank" rel="noopener noreferrer"><img src="/assets/icons/if-github-100x100.png" alt="github-icon" /></a>
           <a href="https://twitter.com/drabkirn" className="mr-20" target="_blank" rel="noopener noreferrer"><img src="/assets/icons/if-twitter-100x100.png" alt="twitter-icon" /></a>
+          <a href="https://www.instagram.com/drabkirn" className="mr-20" target="_blank" rel="noopener noreferrer"><img src="/assets/icons/if-insta-100x100.png" alt="insta-icon" /></a>
         </div>
       </section>
     </React.Fragment>
