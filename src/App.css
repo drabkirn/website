@@ -1,0 +1,7 @@
+ol li a, ul li a, p a {
+  font-size: 1em;
+}
+
+.header-intro-dsk-logo a, .header-intro-mob-logo a {
+  border-bottom: none;
+}
