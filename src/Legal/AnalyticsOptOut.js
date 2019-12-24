@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import MainHeader from '../Shared/MainHeader';
+import Footer from '../Shared/Footer';
 
 import './Legal.css';
 
@@ -51,6 +52,8 @@ function AnalyticsOptOut() {
           <Link to={"/legal/privacy_policy"} className="btn wide-btn">Back</Link>
         </div>
       </section>
+
+      <Footer />
       
     </React.Fragment>
   );

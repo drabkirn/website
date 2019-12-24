@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import MainHeader from '../Shared/MainHeader';
+import Footer from '../Shared/Footer';
 
 import './Home.css';
 
@@ -49,9 +49,7 @@ function Home() {
 
         <div className="mt-50 align-center">
           <a href="https://cdadityang.xyz" className="btn">Aditya</a>
-          <Link to="/legal/privacy_policy" className="btn">Privacy Policy</Link>
-          <Link to="/legal/terms_conditions" className="btn">Terms</Link>
-          <Link to="/legal/credits" className="btn">Credits</Link>
+          <a href="https://drabkirn.quotes.cdadityang.xyz" className="btn">Quotes</a>
         </div>
       </section>
 
@@ -63,6 +61,8 @@ function Home() {
           <a href="https://www.instagram.com/drabkirn" className="mr-20" target="_blank" rel="noopener noreferrer"><img src="/assets/icons/if-insta-100x100.png" alt="insta-icon" /></a>
         </div>
       </section>
+
+      <Footer />
     </React.Fragment>
   );
 }

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import MainHeader from '../Shared/MainHeader';
+import Footer from '../Shared/Footer';
 
 import './Legal.css';
 
@@ -273,11 +274,11 @@ function PrivacyPolicy() {
 
       <section className="container mt-60 mb-80">
         <div className="align-center">
-          <Link to={"/"} className="btn">Back</Link>
-          <Link to={"/legal/terms_conditions"} className="btn">Terms</Link>
-          <Link to={"/legal/credits"} className="btn">Credits</Link>
+          <Link to={"/"} className="btn wide-btn">Back</Link>
         </div>
       </section>
+      
+      <Footer />
     </React.Fragment>
   );
 }
