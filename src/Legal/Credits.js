@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 import MainHeader from '../Shared/MainHeader';
 
@@ -8,6 +9,33 @@ import './Legal.css';
 function Credits() {
   return (
     <React.Fragment>
+      <Helmet>
+        <title>Credits - Drabkirn</title>
+
+        <meta name="description" content="In this document, we tell you about which free(or freemium) services we use to manage Drabkirn and all of it's products." />
+        <meta name="keywords" content="drabkirn, credits, credits, drab, drabkirn credits" />
+
+        {/* Facebook Meta */}
+        <meta property="og:url" content="https://drabkirn.cdadityang.xyz/legal/credits" />
+        <meta property="og:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
+        <meta property="og:description" content="In this document, we tell you about which free(or freemium) services we use to manage Drabkirn and all of it's products." />
+        <meta property="og:title" content="Credits - Drabkirn" />
+        <meta property="og:site_name" content="Credits - Drabkirn" />
+        <meta property="og:see_also" content="https://drabkirn.cdadityang.xyz" />
+
+        {/* G+ Meta tags */}
+        <meta itemprop="name" content="Credits - Drabkirn" />
+        <meta itemprop="description" content="In this document, we tell you about which free(or freemium) services we use to manage Drabkirn and all of it's products." />
+        <meta itemprop="image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
+
+        {/* Twitter Meta Tags */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://drabkirn.cdadityang.xyz/legal/credits" />
+        <meta name="twitter:title" content="Credits - Drabkirn" />
+        <meta name="twitter:description" content="In this document, we tell you about which free(or freemium) services we use to manage Drabkirn and all of it's products." />
+        <meta name="twitter:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
+      </Helmet>
+
       <MainHeader hasTag={false} pageName="Credits" shortDescription="At Drabkirn, apart from focusing on privacy, we also believe in a free and open world." />
 
       <section className="container">
