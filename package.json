@@ -19,7 +19,9 @@
     "start": "PORT=3002 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test_start": "PORT=3005 react-scripts start &",
+    "test_stop": "kill $(lsof -t -i:3005)"
   },
   "eslintConfig": {
     "extends": "react-app"
