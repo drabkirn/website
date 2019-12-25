@@ -5,7 +5,7 @@ require 'capybara/dsl'
 require 'selenium-webdriver'
 
 Selenium::WebDriver.logger.level = :debug
-Selenium::WebDriver.logger.output = File.dirname(Dir.pwd) + '/website/logs/selenium.log'
+Selenium::WebDriver.logger.output = File.dirname(Dir.pwd) + '/website/log/selenium.log'
 ENV['DISPLAY']=':99.0'
 
 Capybara.register_driver :firefox do |app|
