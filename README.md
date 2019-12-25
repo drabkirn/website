@@ -9,6 +9,7 @@
 <!-- Add language, main frameworks used from shields.io. Example -->
 [![React 16.12](https://img.shields.io/badge/React-v16.12-blue.svg)](https://reactjs.org/docs)
 [![Rspec 3.9](https://img.shields.io/badge/RSpec-v3.9-red.svg)](http://rspec.info/)
+[![Build Status](https://travis-ci.org/drabkirn/website.svg?branch=master)](https://travis-ci.org/drabkirn/website)
 [![Issues](https://img.shields.io/github/issues/drabkirn/website.svg)](https://github.com/drabkirn/website/issues)
 [![Issues closed](https://img.shields.io/github/issues-closed/drabkirn/website.svg)](https://github.com/drabkirn/website/issues)
 [![Pulls](https://img.shields.io/github/issues-pr/drabkirn/website.svg)](https://github.com/drabkirn/website/pulls)
