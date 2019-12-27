@@ -6,6 +6,7 @@ import PrivacyPolicy from './Legal/PrivacyPolicy';
 import AnalyticsOptOut from './Legal/AnalyticsOptOut';
 import TermsConditions from './Legal/TermsConditions';
 import Credits from './Legal/Credits';
+import Subscribe from './Subscribe/Subscribe';
 
 import 'desityle/dist/css/desityle.min.css';
 import './App.css';
@@ -17,6 +18,7 @@ function App() {
       <Route exact path="/legal/privacy/analytics_opt_out" component={ AnalyticsOptOut } />
       <Route exact path="/legal/terms_conditions" component={ TermsConditions } />
       <Route exact path="/legal/credits" component={ Credits } />
+      <Route exact path="/subscribe" component={ Subscribe } />
       <Route path="/" component={ Home } />
     </Switch>
   );

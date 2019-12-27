@@ -40,7 +40,7 @@ function Credits() {
       <MainHeader hasTag={false} pageName="Credits" shortDescription="At Drabkirn, apart from focusing on privacy, we also believe in a free and open world." />
 
       <section className="container">
-      <div className="drab-pp-changes mb-30">
+        <div className="drab-pp-changes mb-30">
           <u className="u-orange">Updated on 20th December, 2019</u>
         </div>
 
