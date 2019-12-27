@@ -14,7 +14,7 @@ export const addContactToNewsletter = (firstName, email) => {
       }
     };
     
-    fetch('http://192.168.225.128:3002/newsletter_subscribe', { method: 'POST', headers: myHeaders, body: JSON.stringify(myBody) })
+    fetch('https://drabkirn.quotes.cdadityang.xyz/newsletter_subscribe', { method: 'POST', headers: myHeaders, body: JSON.stringify(myBody) })
       .then((response) => {
         return response.json();
       }).then((res) => {

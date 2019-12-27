@@ -21,8 +21,6 @@ function Subscribe() {
 
   // Get the Redux Dispatch
   const dispatch = useDispatch();
-
-  console.log(store.newsletter);
   
   return (
     <React.Fragment>
