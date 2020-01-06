@@ -84,13 +84,15 @@
 ## Contributing
 If you would like to contribute, please check [this contributing guide](https://github.com/drabkirn/website/blob/master/CONTRIBUTING.md)
 
-Please check [this Code of Conduct guide](https://github.com/drabkirn/website/blob/master/CODE_OF_CONDUCT.md) before contributing or having any kind of discussion(issues, pull requests etc.) with the Bare Rails project!
+Please check [this Code of Conduct guide](https://github.com/drabkirn/website/blob/master/CODE_OF_CONDUCT.md) before contributing or having any kind of discussion(issues, pull requests etc.) with the Drabkirn Website project!
 
 -----
 
 ## Connect:
 Need any help? Have any Questions? Or just say us hi!
 
-1. [Twitter](https://twitter.com/drabkirn)
-2. [Instagram](https://instagram.com/drabkirn)
-3. [Our Blog](https://blog.cdadityang.xyz)
+1. [Drabkirn Website](https://go.cdadityang.xyz/drab)
+2. [Our Blog](https://go.cdadityang.xyz/blog)
+3. [Discord Server](https://go.cdadityang.xyz/discord)
+4. [Twitter](https://go.cdadityang.xyz/DtwtK)
+5. [Instagram](https://go.cdadityang.xyz/DinsK)

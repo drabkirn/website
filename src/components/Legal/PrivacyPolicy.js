@@ -91,7 +91,7 @@ function PrivacyPolicy() {
           <h2>Information you provide us directly</h2>
           <ol>
             <li>
-              When you use our website and services, we might ask you to provide your name and email address to us.
+              When you use our website and services, we might ask you to provide your first name and email address to us.
               <ol className="ol-lower-latin">
                 <li>
                   We use this to:
@@ -101,6 +101,7 @@ function PrivacyPolicy() {
                     <li>Respond to your support queries.</li>
                   </ol>
                 </li>
+                <li>Currently, we store your emails locally on our database. We may, in the future, use any 3rd party Email Marketing software to manage our subscribers. You can subscribe for updates at <Link to={"/subscribe"} >https://drabkirn.cdadityang.xyz/subscribe</Link>.</li>
                 <li>You can opt-out of our emails at any time by clicking the "unsubscribe" link at the bottom of our email. If you're unable to do so, please contact us (through the end of this policy).</li>
               </ol>
             </li>
@@ -260,7 +261,7 @@ function PrivacyPolicy() {
         {/* Changes to this privacy policy */}
         <div>
           <h1>Changes to this privacy policy</h1>
-          <p>As Drabkirn improves, we may need to update this policy. We'll notify you of any changes to this policy via email address. If we don't have your email address, we advise you to review this page periodically for any changes.</p>
+          <p>As Drabkirn improves, we may need to update this policy. We'll notify you of any changes to this policy via email address for which you can subscribe at <Link to={"/subscribe"} >https://drabkirn.cdadityang.xyz/subscribe</Link>. If we don't have your email address, we advise you to review this page periodically for any changes.</p>
         </div>
 
         <hr />

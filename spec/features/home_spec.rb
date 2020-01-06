@@ -85,6 +85,10 @@ describe 'Home.js Spec', js: true do
       expect(page).to have_link('Credits', href: '/legal/credits')
     end
 
+    it "shows Contact link" do
+      expect(page).to have_link('Contact', href: 'mailto:drabkirn@cdadityang.xyz')
+    end
+
     it "Shows Baaaaaa text" do
       expect(page).to have_selector('footer .footer-baaaaaa p', text: "@Baaaaaa")
     end
