@@ -41,29 +41,5 @@ describe 'Legal/AnalyticsOptOut.js Spec', js: true do
     end
   end
 
-  describe "Footer" do
-    it "shows copyrights info" do
-      expect(page).to have_selector('footer .footer-legal p', text: /Copyrights ©, 2019 - Drabkirn/)
-    end
-
-    it "Copyrights Drabkirn must be clickable to /" do
-      expect(page).to have_link('Drabkirn', href: '/')
-    end
-
-    it "shows Privacy Policy link" do
-      expect(page).to have_link('Privacy', href: '/legal/privacy_policy')
-    end
-
-    it "shows Terms and Conditions link" do
-      expect(page).to have_link('Terms', href: '/legal/terms_conditions')
-    end
-
-    it "shows Credits link" do
-      expect(page).to have_link('Credits', href: '/legal/credits')
-    end
-
-    it "Shows Baaaaaa text" do
-      expect(page).to have_selector('footer .footer-baaaaaa p', text: "@Baaaaaa")
-    end
-  end
+  it_behaves_like "Footer Content"
 end

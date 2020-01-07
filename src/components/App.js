@@ -7,6 +7,7 @@ import AnalyticsOptOut from './Legal/AnalyticsOptOut';
 import TermsConditions from './Legal/TermsConditions';
 import Credits from './Legal/Credits';
 import Subscribe from './Subscribe/Subscribe';
+import Authna from './Authna/Authna';
 
 import 'desityle/dist/css/desityle.min.css';
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
       <Route exact path="/legal/terms_conditions" component={ TermsConditions } />
       <Route exact path="/legal/credits" component={ Credits } />
       <Route exact path="/subscribe" component={ Subscribe } />
+      <Route exact path="/authna" component={ Authna } />
       <Route path="/" component={ Home } />
     </Switch>
   );

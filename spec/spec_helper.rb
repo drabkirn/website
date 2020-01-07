@@ -4,6 +4,8 @@ require 'capybara/rspec'
 require 'capybara/dsl'
 require 'selenium-webdriver'
 
+require "#{File.dirname(Dir.pwd)}/website/spec/support/feature_spec_helper.rb"
+
 Selenium::WebDriver.logger.level = :debug
 Selenium::WebDriver.logger.output = File.dirname(Dir.pwd) + '/website/log/selenium.log'
 ENV['DISPLAY']=':99.0'

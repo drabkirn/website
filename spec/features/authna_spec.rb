@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe 'Legal/Credits.js Spec', js: true do
+describe 'Authna.js Spec', js: true do
   before(:each) do
-    visit('/legal/credits')
+    visit('/authna')
   end
 
   describe "MainHeader" do
@@ -15,12 +15,12 @@ describe 'Legal/Credits.js Spec', js: true do
       expect(page).to have_selector('h1', text: 'Drabkirn')
     end
 
-    it "shows Credits H2" do
-      expect(page).to have_selector('h2', text: 'Credits')
+    it "shows Authna H2" do
+      expect(page).to have_selector('h2', text: 'Authna')
     end
 
     it "shows short description" do
-      expect(page).to have_selector('p', text: "At Drabkirn, apart from focusing on privacy, we also believe in a free and open world.")
+      expect(page).to have_selector('p', text: "Plug and play user authentication system that we use at Drabkirn, and you can use it too.")
     end
 
     it "Drabkirn logo header image must be clickable to /" do
@@ -30,11 +30,15 @@ describe 'Legal/Credits.js Spec', js: true do
   end
 
   describe "MainSection" do
-    it "shows little info" do
-      expect(page).to have_selector('p', text: "At Drabkirn, We use the following free services(or products or freemium products):")
+    it "shows full statement" do
+      expect(page).to have_selector('p', text: "Why re-create user's authentication in every app that you build? You can fire up an Authna server, configure your apps to use Authna, and get your users authenticated. Sweet and simple.")
     end
 
     context "shows navigation links in form of buttons" do
+      it "shows Github Repo link" do
+        expect(page).to have_link('GitHub', href: 'https://github.com/drabkirn/authna')
+      end
+
       it "shows Back link" do
         expect(page).to have_link('Back', href: '/')
       end
