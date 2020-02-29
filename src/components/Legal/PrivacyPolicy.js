@@ -127,6 +127,15 @@ function PrivacyPolicy() {
                 <li>To delete your social media engagements with us(messages, comments, so on), you'll need to contact us.</li>
               </ol>
             </li>
+            <li>
+              Drabkirn requires that every contributor sign a Drabkirn Contributor License Agreement (CLA) when you contribute to a Drabkirn open source project. We automate this process using the tool <a href="https://cla-assistant.io/" target="_blank" rel="noopener noreferrer">CLA Assistant</a>. When you agree and sign this Agreement, we collect your:
+              <ol className="ol-lower-latin">
+                <li>Email address,</li>
+                <li>GitHub username, and</li>
+                <li>Receive your employer(s) name if you're contributing on behalf of some organization.</li>
+              </ol>
+              We use this information to contact you regarding this Agreement in case there is a breach or other issues about this Agreement. Our CLA outlines all the details which you can find at <a href="https://go.cdadityang.xyz/oscla" target="_blank" rel="noopener noreferrer">Drabkirn CLA</a>.
+            </li>
           </ol>
         </div>
 
