@@ -15,6 +15,7 @@
 [![Pulls](https://img.shields.io/github/issues-pr/drabkirn/website.svg)](https://github.com/drabkirn/website/pulls)
 [![Pulls](https://img.shields.io/github/issues-pr-closed/drabkirn/website.svg)](https://github.com/drabkirn/website/pulls)
 [![License](https://img.shields.io/github/license/drabkirn/website.svg)](https://choosealicense.com/licenses/agpl-3.0/)
+[![CLA assistant](https://cla-assistant.io/readme/badge/drabkirn/website)](https://cla-assistant.io/drabkirn/website)
 
 **[Visit our website](https://drabkirn.cdadityang.xyz)**
 
