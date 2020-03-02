@@ -20,6 +20,10 @@ shared_examples 'Footer Content' do
       expect(page).to have_link('Credits', href: '/legal/credits')
     end
 
+    it "shows CLA link" do
+      expect(page).to have_link('CLA', href: '/legal/cla')
+    end
+
     it "shows Contact link" do
       expect(page).to have_link('Contact', href: 'mailto:drabkirn@cdadityang.xyz')
     end
