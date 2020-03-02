@@ -11,6 +11,7 @@ function Footer() {
             <Link to="/legal/privacy_policy" className="mr-10">Privacy</Link>
             <Link to="/legal/terms_conditions" className="mr-10">Terms</Link>
             <Link to="/legal/credits" className="mr-10">Credits</Link>
+            <Link to="/legal/cla" className="mr-10">CLA</Link>
             <a href="mailto:drabkirn@cdadityang.xyz" className="mr-10">Contact</a>
           </div>
         </div>
