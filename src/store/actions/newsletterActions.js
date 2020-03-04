@@ -3,18 +3,18 @@ export const addContactToNewsletter = (firstName, email) => {
   return (dispatch) => {
     const myHeaders = {
       'Content-Type': 'application/json',
-      'User-Agent': 'Drabkirn : Website : https://drabkirn.cdadityang.xyz',
-      'Accept': 'application/drabkirn.quotes.v1'
+      'Accept': 'application/json',
+      'User-Agent': 'Drabkirn : Website : https://drabkirn.cdadityang.xyz'
     };
 
     const myBody = {
-      "quote": {
-        "firstName": firstName,
-        "email": email
-      }
+      "firstName": firstName,
+      "email": email
     };
+
+    const functionsURL = "https://dbk-newsletter.azurewebsites.net/api/HttpTrigger1?code=7ixR0EejYdeoPaHKvWX8a7QoBXKsEgzryKSAUC//yW9MLq04W6Rmnw==";
     
-    fetch('https://drabkirn.quotes.cdadityang.xyz/newsletter_subscribe', { method: 'POST', headers: myHeaders, body: JSON.stringify(myBody) })
+    fetch(functionsURL, { method: 'POST', headers: myHeaders, body: JSON.stringify(myBody) })
       .then((response) => {
         return response.json();
       }).then((res) => {

@@ -101,7 +101,8 @@ function PrivacyPolicy() {
                     <li>Respond to your support queries.</li>
                   </ol>
                 </li>
-                <li>Currently, we store your emails locally on our database. We may, in the future, use any 3rd party Email Marketing software to manage our subscribers. You can subscribe for updates at <Link to={"/subscribe"} >https://drabkirn.cdadityang.xyz/subscribe</Link>.</li>
+                <li>We use <a href="https://sendgrid.com" target="_blank" rel="noopener noreferrer">Sendgrid</a> service to collect user's emails, manage contacts, newsletters, and everything related to emails. Drabkirn nor SendGrid will ever sell your information to any 3rd party. You can read more about Sendgrid's <a href="https://sendgrid.com/policies/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="https://sendgrid.com/policies/security/" target="_blank" rel="noopener noreferrer">Security Policy.</a></li>
+                <li>You can subscribe for updates at <Link to={"/subscribe"} >https://drabkirn.cdadityang.xyz/subscribe</Link>.</li>
                 <li>You can opt-out of our emails at any time by clicking the "unsubscribe" link at the bottom of our email. If you're unable to do so, please contact us (through the end of this policy).</li>
               </ol>
             </li>
