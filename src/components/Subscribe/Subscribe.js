@@ -28,7 +28,7 @@ function Subscribe() {
         <title>Newsletter - Drabkirn</title>
 
         <meta name="description" content="Subscribe to our weekly newsletter about everything Drabkirn on every Tuesday. Don't worry; we won't spam you or sell your email to any third party." />
-    <meta name="keywords" content="drabkirn, drab, newsletter, subscribe, drabkirn newsletter, drabkirn subscribe" />
+        <meta name="keywords" content="drabkirn, drab, newsletter, subscribe, drabkirn newsletter, drabkirn subscribe" />
 
         {/* Facebook Meta */}
         <meta property="og:url" content="https://drabkirn.cdadityang.xyz/subscribe" />
@@ -67,7 +67,7 @@ function Subscribe() {
 
             <div className="form-field">
               <label htmlFor="first_name" className="form-field-label">First Name: </label>
-              <p className="form-field-explanation">We collect your first name to refer to you on our emails. We won't let anyone know that you've subscribed to us. For more, see our privacy policy. Name must have minimum of 4 characters and maximum of 20 characters.</p>
+              <p className="form-field-explanation">We collect your first name to refer to you on our emails. We won't let anyone know that you've subscribed to us. For more, see our <Link to="/legal/privacy_policy">privacy policy.</Link> Name must have minimum of 4 characters and maximum of 20 characters.</p>
               <input type="text" className="form-field-input" id="first_name" required minLength="4" maxLength="20" onChange={ (e) => setfirstName(e.target.value) } />
             </div>
 
@@ -98,9 +98,13 @@ function Subscribe() {
             }
 
             <div className="form-footer align-center mt-40">
-              <button className="btn wide-btn submit-btn">Submit</button>
+              <button className="btn wide-btn submit-btn">Subscribe</button>
             </div>
           </form>
+        </div>
+
+        <div className="align-center mt-20">
+          <a href="https://go.cdadityang.xyz/nlif" className="newsletter-redirect-link" target="_blank" rel="noopener noreferrer">Click here if this form doesn't work</a>
         </div>
       </section>
 
