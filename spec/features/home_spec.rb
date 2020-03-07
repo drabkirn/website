@@ -45,7 +45,7 @@ describe 'Home.js Spec', js: true do
       end
 
       it "shows Desityle link" do
-        expect(page).to have_link('Desityle', href: '/desityle')
+        expect(page).to have_link('Desityle', href: '/desityle/index.html')
       end
 
       it "shows Authna link" do
