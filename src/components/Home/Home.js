@@ -53,6 +53,7 @@ function Home() {
           <br />
           <a href="https://cdadityang.xyz" className="btn">Aditya</a>
           <a href="https://drabkirn.quotes.cdadityang.xyz" className="btn">Quotes</a>
+          <a href="/desityle" className="btn">Desityle</a>
           <Link to="/authna" className="btn">Authna</Link>
         </div>
       </section>

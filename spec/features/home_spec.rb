@@ -43,6 +43,14 @@ describe 'Home.js Spec', js: true do
       it "shows Quotes link" do
         expect(page).to have_link('Quotes', href: 'https://drabkirn.quotes.cdadityang.xyz')
       end
+
+      it "shows Desityle link" do
+        expect(page).to have_link('Desityle', href: '/desityle')
+      end
+
+      it "shows Authna link" do
+        expect(page).to have_link('Authna', href: '/authna')
+      end
     end
   end
 
