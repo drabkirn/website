@@ -36,6 +36,10 @@ describe 'Home.js Spec', js: true do
     end
 
     context "shows navigation links in form of buttons" do
+      it "shows Subscribe link" do
+        expect(page).to have_link('Subscribe', href: '/subscribe')
+      end
+
       it "shows Aditya link" do
         expect(page).to have_link('Aditya', href: 'https://cdadityang.xyz')
       end
@@ -50,6 +54,10 @@ describe 'Home.js Spec', js: true do
 
       it "shows Authna link" do
         expect(page).to have_link('Authna', href: '/authna')
+      end
+
+      it "shows Docs link" do
+        expect(page).to have_link('Docs', href: '/docs/index.html')
       end
     end
   end
@@ -69,6 +77,28 @@ describe 'Home.js Spec', js: true do
 
     it "shows insta link" do
       expect(page).to have_link('', href: 'https://www.instagram.com/drabkirn')
+    end
+  end
+
+  describe "Navigate to respective page when clicked" do
+    it "shows Subscribe page" do
+      click_on "Subscribe"
+      expect(page.current_path).to eq "/subscribe"
+    end
+
+    it "shows Desityle page" do
+      click_on "Desityle"
+      expect(page.current_path).to eq "/desityle/index.html"
+    end
+
+    it "shows Authna page" do
+      click_on "Authna"
+      expect(page.current_path).to eq "/authna"
+    end
+
+    it "shows Docs page" do
+      click_on "Docs"
+      expect(page.current_path).to eq "/docs/index.html"
     end
   end
 

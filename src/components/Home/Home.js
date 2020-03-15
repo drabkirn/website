@@ -49,12 +49,11 @@ function Home() {
         </div>
 
         <div className="mt-50 align-center">
-          <Link to="/subscribe" className="btn wide-btn">Subscribe</Link>
-          <br />
           <a href="https://cdadityang.xyz" className="btn">Aditya</a>
           <a href="https://drabkirn.quotes.cdadityang.xyz" className="btn">Quotes</a>
           <a href="/desityle/index.html" className="btn">Desityle</a>
           <Link to="/authna" className="btn">Authna</Link>
+          <a href="/docs/index.html" className="btn">Docs</a>
         </div>
       </section>
 

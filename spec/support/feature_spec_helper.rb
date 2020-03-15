@@ -8,6 +8,10 @@ shared_examples 'Footer Content' do
       expect(page).to have_link('Drabkirn', href: '/')
     end
 
+    it "shows Subscribe link" do
+      expect(page).to have_link('Subscribe', href: '/subscribe')
+    end
+
     it "shows Privacy Policy link" do
       expect(page).to have_link('Privacy', href: '/legal/privacy_policy')
     end
