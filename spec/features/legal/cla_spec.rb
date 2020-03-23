@@ -20,7 +20,7 @@ describe 'Legal/CLA.js Spec', js: true do
     end
 
     it "shows short description" do
-      expect(page).to have_selector('p', text: /The purpose of this Agreement is to clarify and document the rights granted by contributors to Drabkirn./)
+      expect(page).to have_selector('p', text: /This document applies to you when you choose to contribute to drabkirn, and this Agreement is to clarify and document the rights granted by contributors to drabkirn./)
     end
 
     it "Drabkirn logo header image must be clickable to /" do

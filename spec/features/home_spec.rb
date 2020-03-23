@@ -31,15 +31,12 @@ describe 'Home.js Spec', js: true do
 
   describe "MainSection" do
     it "shows Drabkirn mission and vision" do
-      expect(page).to have_selector('p.fs-1-6', text: /Our mission is to connect and build a free/)
+      expect(page).to have_selector('p.fs-1-6', text: /Our mission is to connect and build a free, open, and privacy-respected open-source world/)
+      expect(page).to have_selector('.hr-center')
       expect(page).to have_selector('p.fs-1-6', text: /Our vision is to empower every person on this planet/)
     end
 
     context "shows navigation links in form of buttons" do
-      it "shows Subscribe link" do
-        expect(page).to have_link('Subscribe', href: '/subscribe')
-      end
-
       it "shows Aditya link" do
         expect(page).to have_link('Aditya', href: 'https://cdadityang.xyz')
       end
@@ -63,6 +60,10 @@ describe 'Home.js Spec', js: true do
   end
 
   describe "Social Links" do
+    it "shows follow us text CTA" do
+      expect(page).to have_selector('p.fs-1-6', text: /Don't forget to follow us on social media to stay ahead on us/)
+    end
+
     it "shows blog link" do
       expect(page).to have_link('', href: 'https://blog.cdadityang.xyz')
     end
@@ -77,6 +78,10 @@ describe 'Home.js Spec', js: true do
 
     it "shows insta link" do
       expect(page).to have_link('', href: 'https://www.instagram.com/drabkirn')
+    end
+
+    it "shows discord link" do
+      expect(page).to have_link('', href: 'https://discordapp.com/invite/wFPtMUY')
     end
   end
 

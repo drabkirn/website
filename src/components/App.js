@@ -7,10 +7,11 @@ import AnalyticsOptOut from './Legal/AnalyticsOptOut';
 import TermsConditions from './Legal/TermsConditions';
 import Credits from './Legal/Credits';
 import CLA from './Legal/CLA';
+import Palace from './Palace/Palace';
 import Subscribe from './Subscribe/Subscribe';
 import Authna from './Authna/Authna';
 
-import 'desityle/dist/css/desityle.min.css';
+import 'desityle/build/css/desityle.min.css';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route exact path="/legal/terms_conditions" component={ TermsConditions } />
       <Route exact path="/legal/credits" component={ Credits } />
       <Route exact path="/legal/cla" component={ CLA } />
+      <Route exact path="/palace" component={ Palace } />
       <Route exact path="/subscribe" component={ Subscribe } />
       <Route exact path="/authna" component={ Authna } />
       <Route path="/" component={ Home } />

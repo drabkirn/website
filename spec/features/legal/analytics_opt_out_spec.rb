@@ -20,7 +20,7 @@ describe 'Legal/AnalyticsOptOut.js Spec', js: true do
     end
 
     it "shows short description" do
-      expect(page).to have_selector('p', text: "At Drabkirn, we care about the privacy of your data and are committed to protecting it. You can opt-out of our web analytics here.")
+      expect(page).to have_selector('p', text: "Like we said, we care about the privacy of your data and are committed to protecting it. So we give you this option to opt-out of our web analytics. You're a free bird!")
     end
 
     it "Drabkirn logo header image must be clickable to /" do

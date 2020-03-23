@@ -20,7 +20,7 @@ describe 'Legal/TermsConditions.js Spec', js: true do
     end
 
     it "shows short description" do
-      expect(page).to have_selector('p', text: "Rules and regulation you need to read, understand, and agree to access cdadityang's website, Drabkirn's website and it's products.")
+      expect(page).to have_selector('p', text: "There are some rules and regulations you need to read, understand, and agree to access our websites and our products.")
     end
 
     it "Drabkirn logo header image must be clickable to /" do

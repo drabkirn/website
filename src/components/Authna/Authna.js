@@ -5,8 +5,6 @@ import { Helmet } from "react-helmet";
 import MainHeader from '../Shared/MainHeader';
 import Footer from '../Shared/Footer';
 
-import './Authna.css';
-
 function Authna() {
   return (
     <React.Fragment>

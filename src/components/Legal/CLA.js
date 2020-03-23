@@ -5,39 +5,37 @@ import { Helmet } from "react-helmet";
 import MainHeader from '../Shared/MainHeader';
 import Footer from '../Shared/Footer';
 
-import './Legal.css';
-
 function CLA() {
   return (
     <React.Fragment>
       <Helmet>
         <title>Contributor License Agreement - Drabkirn</title>
 
-        <meta name="description" content="In this Contributor License Agreement, clarify and document the rights granted by contributors to Drabkirn. This license is for your protection as a Contributor as well as the protection of Drabkirn." />
+        <meta name="description" content="This document applies to you when you choose to contribute to drabkirn, and this Agreement is to clarify and document the rights granted by contributors to drabkirn." />
         <meta name="keywords" content="drabkirn, Contributor License Agreement, Contributor, License, Agreement, CLA, drab, drabkirn agreement, drabkirn Contributor License Agreement" />
 
         {/* Facebook Meta */}
         <meta property="og:url" content="https://drabkirn.cdadityang.xyz/legal/cla" />
         <meta property="og:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
-        <meta property="og:description" content="In this Contributor License Agreement, clarify and document the rights granted by contributors to Drabkirn. This license is for your protection as a Contributor as well as the protection of Drabkirn." />
+        <meta property="og:description" content="This document applies to you when you choose to contribute to drabkirn, and this Agreement is to clarify and document the rights granted by contributors to drabkirn." />
         <meta property="og:title" content="Contributor License Agreement - Drabkirn" />
         <meta property="og:site_name" content="Contributor License Agreement - Drabkirn" />
         <meta property="og:see_also" content="https://drabkirn.cdadityang.xyz" />
 
         {/* G+ Meta tags */}
         <meta itemprop="name" content="Contributor License Agreement - Drabkirn" />
-        <meta itemprop="description" content="In this Contributor License Agreement, clarify and document the rights granted by contributors to Drabkirn. This license is for your protection as a Contributor as well as the protection of Drabkirn." />
+        <meta itemprop="description" content="This document applies to you when you choose to contribute to drabkirn, and this Agreement is to clarify and document the rights granted by contributors to drabkirn." />
         <meta itemprop="image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://drabkirn.cdadityang.xyz/legal/privacy_policy" />
         <meta name="twitter:title" content="Contributor License Agreement - Drabkirn" />
-        <meta name="twitter:description" content="In this Contributor License Agreement, clarify and document the rights granted by contributors to Drabkirn. This license is for your protection as a Contributor as well as the protection of Drabkirn." />
+        <meta name="twitter:description" content="This document applies to you when you choose to contribute to drabkirn, and this Agreement is to clarify and document the rights granted by contributors to drabkirn." />
         <meta name="twitter:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
       </Helmet>
 
-      <MainHeader hasTag={false} pageName="Contributor License Agreement (CLA)" shortDescription='The purpose of this Agreement is to clarify and document the rights granted by contributors to Drabkirn.' />
+      <MainHeader hasTag={false} pageName="Contributor License Agreement (CLA)" shortDescription='This document applies to you when you choose to contribute to drabkirn, and this Agreement is to clarify and document the rights granted by contributors to drabkirn.' />
 
       <section className="container">
         <div className="drab-pp-changes mb-30">

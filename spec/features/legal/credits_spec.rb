@@ -20,7 +20,7 @@ describe 'Legal/Credits.js Spec', js: true do
     end
 
     it "shows short description" do
-      expect(page).to have_selector('p', text: "At Drabkirn, apart from focusing on privacy, we also believe in a free and open world.")
+      expect(page).to have_selector('p', text: "Since we believe in a free and open-world, we use some free stuff out there to make drabkirn work as you see it today.")
     end
 
     it "Drabkirn logo header image must be clickable to /" do

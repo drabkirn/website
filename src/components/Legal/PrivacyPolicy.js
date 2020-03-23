@@ -5,39 +5,37 @@ import { Helmet } from "react-helmet";
 import MainHeader from '../Shared/MainHeader';
 import Footer from '../Shared/Footer';
 
-import './Legal.css';
-
 function PrivacyPolicy() {
   return (
     <React.Fragment>
       <Helmet>
         <title>Privacy Policy - Drabkirn</title>
 
-        <meta name="description" content="In our privacy policy, we explain what information we collect, why, and how we process and handle that information. This document also presents how secure and how long we keep your information." />
-        <meta name="keywords" content="drabkirn, privacy policy, policy, privacy, drab, drabkirn policy, drabkirn privacy policy" />
+        <meta name="description" content="Our mission at drabkirn is reflected more in our privacy policy. We sincerely care about the privacy of your data and are committed to protecting it." />
+        <meta name="keywords" content="drabkirn, privacy policy, policy, privacy, drabkirn policy, drabkirn privacy policy" />
 
         {/* Facebook Meta */}
         <meta property="og:url" content="https://drabkirn.cdadityang.xyz/legal/privacy_policy" />
         <meta property="og:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
-        <meta property="og:description" content="In our privacy policy, we explain what information we collect, why, and how we process and handle that information. This document also presents how secure and how long we keep your information." />
+        <meta property="og:description" content="Our mission at drabkirn is reflected more in our privacy policy. We sincerely care about the privacy of your data and are committed to protecting it." />
         <meta property="og:title" content="Privacy Policy - Drabkirn" />
         <meta property="og:site_name" content="Privacy Policy - Drabkirn" />
         <meta property="og:see_also" content="https://drabkirn.cdadityang.xyz" />
 
         {/* G+ Meta tags */}
         <meta itemprop="name" content="Privacy Policy - Drabkirn" />
-        <meta itemprop="description" content="In our privacy policy, we explain what information we collect, why, and how we process and handle that information. This document also presents how secure and how long we keep your information." />
+        <meta itemprop="description" content="Our mission at drabkirn is reflected more in our privacy policy. We sincerely care about the privacy of your data and are committed to protecting it." />
         <meta itemprop="image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://drabkirn.cdadityang.xyz/legal/privacy_policy" />
         <meta name="twitter:title" content="Privacy Policy - Drabkirn" />
-        <meta name="twitter:description" content="In our privacy policy, we explain what information we collect, why, and how we process and handle that information. This document also presents how secure and how long we keep your information." />
+        <meta name="twitter:description" content="Our mission at drabkirn is reflected more in our privacy policy. We sincerely care about the privacy of your data and are committed to protecting it." />
         <meta name="twitter:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
       </Helmet>
 
-      <MainHeader hasTag={false} pageName="Privacy Policy" shortDescription="At Drabkirn, we care about the privacy of your data and are committed to protecting it." />
+      <MainHeader hasTag={false} pageName="Privacy Policy" shortDescription="Our mission at drabkirn is reflected more in our privacy policy. We sincerely care about the privacy of your data and are committed to protecting it." />
 
       <section className="container">
         <div className="drab-pp-changes mb-30">

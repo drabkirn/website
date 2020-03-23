@@ -5,39 +5,37 @@ import { Helmet } from "react-helmet";
 import MainHeader from '../Shared/MainHeader';
 import Footer from '../Shared/Footer';
 
-import './Legal.css';
-
 function TermsConditions() {
   return (
     <React.Fragment>
       <Helmet>
         <title>Terms and Conditions - Drabkirn</title>
 
-        <meta name="description" content="In our terms and conditions, informs you about the rules and regulation you need to read, understand, and agree to access our website and it's products." />
+        <meta name="description" content="There are some rules and regulations you need to read, understand, and agree to access our websites and our products." />
         <meta name="keywords" content="drabkirn, terms, terms and conditions, terms, conditions, drab, drabkirn terms and conditions, drabkirn terms, drabkirn conditions" />
 
         {/* Facebook Meta */}
         <meta property="og:url" content="https://drabkirn.cdadityang.xyz/legal/terms_conditions" />
         <meta property="og:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
-        <meta property="og:description" content="In our terms and conditions, informs you about the rules and regulation you need to read, understand, and agree to access our website and it's products." />
+        <meta property="og:description" content="There are some rules and regulations you need to read, understand, and agree to access our websites and our products." />
         <meta property="og:title" content="Terms and Conditions - Drabkirn" />
         <meta property="og:site_name" content="Terms and Conditions - Drabkirn" />
         <meta property="og:see_also" content="https://drabkirn.cdadityang.xyz" />
 
         {/* G+ Meta tags */}
         <meta itemprop="name" content="Terms and Conditions - Drabkirn" />
-        <meta itemprop="description" content="In our terms and conditions, informs you about the rules and regulation you need to read, understand, and agree to access our website and it's products." />
+        <meta itemprop="description" content="There are some rules and regulations you need to read, understand, and agree to access our websites and our products." />
         <meta itemprop="image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://drabkirn.cdadityang.xyz/legal/privacy_policy" />
         <meta name="twitter:title" content="Terms and Conditions - Drabkirn" />
-        <meta name="twitter:description" content="In our terms and conditions, informs you about the rules and regulation you need to read, understand, and agree to access our website and it's products." />
+        <meta name="twitter:description" content="There are some rules and regulations you need to read, understand, and agree to access our websites and our products." />
         <meta name="twitter:image" content="https://drabkirn.cdadityang.xyz/assets/drabkirn-logo-180x180.png" />
       </Helmet>
 
-      <MainHeader hasTag={false} pageName="Terms and Conditions" shortDescription="Rules and regulation you need to read, understand, and agree to access cdadityang's website, Drabkirn's website and it's products." />
+      <MainHeader hasTag={false} pageName="Terms and Conditions" shortDescription="There are some rules and regulations you need to read, understand, and agree to access our websites and our products." />
 
       <section className="container">
         <div className="drab-pp-changes mb-30">

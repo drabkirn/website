@@ -20,7 +20,7 @@ describe 'Legal/PrivacyPolicy.js Spec', js: true do
     end
 
     it "shows short description" do
-      expect(page).to have_selector('p', text: /At Drabkirn, we care about the privacy of your data and are committed to protecting it./)
+      expect(page).to have_selector('p', text: /Our mission at drabkirn is reflected more in our privacy policy./)
     end
 
     it "Drabkirn logo header image must be clickable to /" do
